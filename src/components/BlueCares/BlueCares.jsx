@@ -172,61 +172,49 @@ const BlueCares = () => {
 
 
                     <div className="contenedorDeTodosLosPasos">
-                      {/* Paso 1 */}
-                      <div
-                        className={`contenedorDePasosIndividuales ${activeStep === 1 ? 'sombra-seleccionada' : ''}`}
-                        onClick={() => handleStepClick(1)}
-                      >
+  <div className="timeline-circle left"></div> {/* Círculo izquierdo */}
+  <div className="timeline-line"></div> {/* Línea que conecta los pasos */}
+  <div className="timeline-circle right"></div> {/* Círculo derecho */}
 
-                        <div className="contenedorDelLogo">
-                          <img src={Step1} alt="Step 1" className="step-logo" />
-                          {activeStep === 1 && (
-                            <div className="textoDelPaso">
-                              <p className="step-text">Step 1</p>
-                              <p><strong>Request a Recycling Kit</strong></p>
-                              <p>Contact a recycling provider like Call2Recycle or Battery Solutions and request a packaging kit that includes prepaid shipping labels.</p>
-                            </div>
-                          )}
-                        </div>
+  {/* Paso 1 */}
+  <div className={`contenedorDePasosIndividuales ${activeStep === 1 ? 'sombra-seleccionada' : ''}`} onClick={() => handleStepClick(1)}>
+    <div className="contenedorDelLogo">
+      <img src={Step1} alt="Step 1" className="step-logo" />
+      {activeStep === 1 && (
+        <div className="textoDelPaso">
+          <p><strong>Request a Recycling Kit</strong></p>
+          <p>Contact a recycling provider like Call2Recycle or Battery Solutions and request a packaging kit that includes prepaid shipping labels.</p>
+        </div>
+      )}
+    </div>
+  </div>
 
+  {/* Paso 2 */}
+  <div className={`contenedorDePasosIndividuales ${activeStep === 2 ? 'sombra-seleccionada' : ''}`} onClick={() => handleStepClick(2)}>
+    <div className="contenedorDelLogo">
+      <img src={Step2} alt="Step 2" className="step-logo" />
+      {activeStep === 2 && (
+        <div className="textoDelPaso">
+          <p><strong>Pack the Batteries</strong></p>
+          <p>Once you receive the kit, place the batteries inside the provided packaging according to the instructions. Ensure they are securely packed to prevent any damage during transport.</p>
+        </div>
+      )}
+    </div>
+  </div>
 
-
-                      </div>
-
-                      {/* Paso 2 */}
-                      <div
-                        className={`contenedorDePasosIndividuales ${activeStep === 2 ? 'sombra-seleccionada' : ''}`}
-                        onClick={() => handleStepClick(2)}
-                      >
-                        <div className="contenedorDelLogo">
-                          <img src={Step2} alt="Step 2" className="step-logo" />
-                          {activeStep === 2 && (
-                            <div className="textoDelPaso">
-                              <p className="step-text">Step 2</p>
-                              <p><strong>Pack the Batteries</strong></p>
-                              <p>Once you receive the kit, place the batteries inside the provided packaging according to the instructions. Ensure they are securely packed to prevent any damage during transport.</p>
-                            </div>
-                          )}
-                        </div>
-                      </div>
-
-                      {/* Paso 3 */}
-                      <div
-                        className={`contenedorDePasosIndividuales ${activeStep === 3 ? 'sombra-seleccionada' : ''}`}
-                        onClick={() => handleStepClick(3)}
-                      >
-                        <div className="contenedorDelLogo">
-                          <img src={Step3} alt="Step 3" className="step-logo-3" />
-                          {activeStep === 3 && (
-                            <div className="textoDelPaso">
-                              <p className="step-text">Step 3</p>
-                              <p><strong>Schedule the Pickup</strong></p>
-                              <p>Affix the prepaid shipping label in a visible location. If shipping by air, include a label indicating that it contains lithium batteries.</p>
-                            </div>
-                          )}
-                        </div>
-                      </div>
-                    </div>
+  {/* Paso 3 */}
+  <div className={`contenedorDePasosIndividuales ${activeStep === 3 ? 'sombra-seleccionada' : ''}`} onClick={() => handleStepClick(3)}>
+    <div className="contenedorDelLogo">
+      <img src={Step3} alt="Step 3" className="step-logo-3" />
+      {activeStep === 3 && (
+        <div className="textoDelPaso">
+          <p><strong>Schedule the Pickup</strong></p>
+          <p>Affix the prepaid shipping label in a visible location. If shipping by air, include a label indicating that it contains lithium batteries.</p>
+        </div>
+      )}
+    </div>
+  </div>
+</div>
                     <button
                       className="popup-close"
                       onClick={() => {
