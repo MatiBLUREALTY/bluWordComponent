@@ -186,7 +186,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    
+
     z-index: 9998;
     backdrop-filter: blur(40px);
 }
@@ -204,13 +204,18 @@
     z-index: 9999;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
+
 .styled-h2 {
     font-family: 'DM Serif Display', serif;
     color: #003B5C;
-    text-align: center; /* Centra el título */
-    font-size: 36px; /* Ajusta el tamaño si lo deseas */
-    margin-bottom: 20px; /* Añade espacio debajo del título */
+    text-align: center;
+    /* Centra el título */
+    font-size: 36px;
+    /* Ajusta el tamaño si lo deseas */
+    margin-bottom: 20px;
+    /* Añade espacio debajo del título */
 }
+
 .popup-content h2 {
     font-family: 'Montserrat', serif;
     font-size: 35px;
@@ -240,7 +245,7 @@
 
 .popup-option {
     position: relative;
-    
+
     width: 30%;
     height: 220px;
     border-radius: 15px;
@@ -382,9 +387,12 @@
     border-radius: 50%;
     margin-bottom: 10px;
     object-fit: cover;
-    padding: 8px; /* Aplica un pequeño padding interno */
-    background-color: white; /* Aplica un fondo blanco para simular el borde */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave alrededor */
+    padding: 8px;
+    /* Aplica un pequeño padding interno */
+    background-color: white;
+    /* Aplica un fondo blanco para simular el borde */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Sombra suave alrededor */
 }
 
 .recycling-center p {
@@ -420,15 +428,15 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    width: 800px;
-    height: 550px; /* Define una altura fija */
+    height: 550px;
+    /* Define una altura fija */
     background-color: white;
-    padding: 40px;
+    padding: 60px;
     border-radius: 20px;
     z-index: 9999;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
-    
-    
+
+
 }
 
 /* Contenido exclusivo de este popup */
@@ -456,12 +464,15 @@
     max-width: 150px;
     margin-top: 25px;
 }
+
 .underline-strong {
     text-decoration: underline;
 }
+
 .styled-h2 {
     font-family: 'DM Serif Display', serif;
-    font-size: 35px; /* Ajusta el tamaño según sea necesario */
+    font-size: 35px;
+    /* Ajusta el tamaño según sea necesario */
     color: #003B5C;
 }
 
@@ -471,28 +482,38 @@
     border-radius: 50%;
     margin-bottom: 10px;
     object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Añade una sombra suave */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Añade una sombra suave */
 }
+
 .battery-solutions-logo {
-    width: 100px; /* Mantén el ancho consistente */
-    height: 100px; /* Permite que la altura se ajuste automáticamente según la proporción de la imagen */
-    border-radius: 50%; /* Aplica el borde redondeado */
+    width: 100px;
+    /* Mantén el ancho consistente */
+    height: 100px;
+    /* Permite que la altura se ajuste automáticamente según la proporción de la imagen */
+    border-radius: 50%;
+    /* Aplica el borde redondeado */
     margin-bottom: 10px;
-    object-fit: contain; /* Asegura que la imagen mantenga su proporción dentro del contenedor */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Añade una sombra suave */
-    
-   
-   
+    object-fit: contain;
+    /* Asegura que la imagen mantenga su proporción dentro del contenedor */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Añade una sombra suave */
+
+
+
 }
+
 .drop-off-center p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #003B5C;
     margin: 10;
 }
+
 .styled-paragraph {
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px; /* Ajusta el tamaño según sea necesario */
+    font-size: 17px;
+    /* Ajusta el tamaño según sea necesario */
     color: #003B5C;
 }
 
@@ -574,416 +595,246 @@
 }
 
 
-   
-
-    
-    .popup-option p {
-        font-size: 12px;
-        /* Ajusta el tamaño del texto en pantallas móviles */
-    }
 
 
 
-    .LogoContainer {
-        width: 185px;
-        height: 185px;
-        background-color: #2699FB;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        position: relative;
-
-
-    }
-
-    .LogoContainer::after {
-        display: block;
-        width: 226px;
-        height: 226px;
-        content: "";
-        background-color: white;
-
-    }
-
-
-    /* Contenedor de los pasos */
-    .shipping-steps {
-        display: flex;
-        justify-content: space-between;
-        /* Distribuye los pasos uniformemente */
-        align-items: center;
-        /* Alinea verticalmente los pasos */
-        width: 100%;
-        max-width: 800px;
-        margin: 0 auto;
-        position: relative;
-        padding: 20px 0;
-    }
-
-    /* Estilo de cada paso */
-    .shipping-step {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        cursor: pointer;
-        position: relative;
-    }
-
-    /* Fondo azul y bordes redondeados para el contenedor del logo */
-    .step-logo {
-        width: 100%; /* Asegura que las imágenes escalen */
-        max-width: 80px; /* Pero establece un máximo en pantallas más grandes */
-        height: auto; /* Mantén la relación de aspecto */
-        border-radius: 50%;
-        background-color: #007bff; /* Fondo azul */
-        padding: 10px;
-        object-fit: contain;
-    }
-
-    /* Texto debajo de cada logo */
-    .shipping-step p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
-        color: #003B5C;
-        margin-top: 10px;
-    }
-  
-    
- 
-    /* Detalles adicionales del paso */
-    .step-detail {
-        background-color: #f2f4f8;
-        padding: 15px;
-        border-radius: 10px;
-        position: absolute;
-        top: 120px;
-        width: 250px;
-        text-align: left;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    /* Estilo de la línea azul que conecta los pasos */
-    .shipping-steps::before {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 5%;
-        right: 5%;
-        height: 4px;
-        background-color: #007bff;
-        z-index: 0;
-    }
-
-    .shipping-step::after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 100px;
-        height: 4px;
-        background-color: transparent;
-        z-index: 1;
-    }
+.popup-option p {
+    font-size: 12px;
+    /* Ajusta el tamaño del texto en pantallas móviles */
+}
 
 
 
-    .popup-batteries.mail-lithium-popup {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 40px;
-        background-color: white;
-        border-radius: 15px;
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        z-index: 9999;
-    }
+.LogoContainer {
+    width: 185px;
+    height: 185px;
+    background-color: #2699FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
 
 
+}
+
+.LogoContainer::after {
+    display: block;
+    width: 226px;
+    height: 226px;
+    content: "";
+    background-color: white;
+
+}
 
 
-
-
-
-
-    .contenedorDeTodosLosPasos {
-        display: flex;
-        justify-content: center; /* Centra los elementos horizontalmente */
-        align-items: center; /* Centra los elementos verticalmente */
-        gap: 20px; /* Espaciado entre los elementos */
-        width: 100%;
-        max-width: 900px;
-        margin: 0 auto;
-        
-        padding: 90px 0 20px;
-        flex-wrap: wrap; /* Permite que los elementos se ajusten en varias filas si no hay suficiente espacio */
-    }
-    
-    .contenedorDePasosIndividuales {
-        display: flex;
-        flex-direction: column; /* Muestra el contenido dentro de cada paso en columna */
-        align-items: center;
-        justify-content: center;
-        width: calc(33.33% - 20px); /* Distribuye tres pasos en una fila, con un margen entre ellos */
-        max-width: 300px;
-        text-align: center;
-        cursor: pointer;
-        box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
-    }
-    
-
-    .sombra-seleccionada {
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave alrededor del contenedor */
-        transition: box-shadow 0.3s ease; /* Transición suave cuando se activa */
-        padding: 10px; /* Espacio interior para mejorar la presentación */
-        border-radius: 10px; /* Bordes redondeados */
-      }
-      
-      .textoDelPaso {
-        margin-top: 10px;
-        font-size: 14px;
-      }
-
-    .contenedorDelLogo {
-        display: flex;
-        justify-content: center; /* Centra el logo */
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        margin-bottom: 10px;
-    }
-    
-   
-
-
-
-
-
-
-
-    .lets-container {
-        display: flex;
-    justify-content: center; /* Centra horizontalmente */
-        /* Centra verticalmente */
-    height: 120%;     
+/* Contenedor de los pasos */
+.shipping-steps {
+    display: flex;
+    justify-content: space-between;
+    /* Distribuye los pasos uniformemente */
+    align-items: center;
+    /* Alinea verticalmente los pasos */
     width: 100%;
-    }
-    
-    .lets-image {
-        width: 100%;  /* Ocupa el 100% del contenedor padre */
-        height: auto; /* Mantén la proporción de la imagen */
-        border-radius: 10px;
-    }
-    
-    .lets-text-overlay {
-        position: absolute;
-        top: 70px;
-        left: 50px;
-        width: 26%;
-        height: 40%;
-        background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco translúcido */
-        border-radius: 50px;
-        display: flex;
-        flex-direction: column;
-        
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-    }
-    
-    .lets-text-overlay p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        color: #003B5C;
-        margin-bottom: 20px;
-        position: absolute;
-        top: 37px;
-        left: 10px;
-    }
-    
-    
-    
-    .outline-text {
-        position: absolute;
-        top: 160px; /* Ajusta esto para mover el texto verticalmente */
-        left: 60px; /* Ajusta esto para mover el texto horizontalmente */
-        font-family: 'Montserrat', sans-serif;
-        font-size: 55px;
-        -webkit-text-stroke: 1px #003B5C; /* Contorno del texto */
-        color: transparent; /* Fondo transparente */
-    }
-    
-    .filled-text {
-        position: absolute; /* Para controlar la posición dentro del contenedor padre */
-        top: 208px; /* Ajusta este valor para la posición vertical */
-        left: 61px; /* Ajusta este valor para la posición horizontal */
-        font-family: 'Montserrat', sans-serif;
-        font-size: 38px; /* Controla el tamaño del texto */
-        color: #003B5C; /* Color del texto */
-        font-weight: bold; /* Grosor del texto */
-        z-index: 2; /* Asegura que el texto esté encima de otros elementos */
-    }
-    
-    .popup-lets {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 950px;
-        
-        background-color: white;
-        padding: 40px;
-        border-radius: 15px;
-        z-index: 9999;
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-    }
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 0;
+}
 
-
-
-    .freeRecycling-popup {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 90%; /* Controla el ancho, usa porcentaje o unidades fijas */
-        max-width: 1200px; /* Máximo ancho que puede alcanzar */
-        height: 600px; /* Establece un alto fijo para el popup */
-        max-height: 80vh; /* O usa un porcentaje de la altura del viewport */
-        background-color: white; /* Color de fondo */
-        padding: 40px;
-        border-radius: 15px;
-        z-index: 9999;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .freeRecycling-popup-overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-        z-index: 9998;
-    }
-    
-    .freeRecycling-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-    }
-    
-
-
-
-
-
-    .freeRecycling-image {
-        width: 530px;
-        height: 550px; /* Controla la altura máxima de la imagen */
-        border-radius: 15px; /* Mantiene los bordes redondeados */
-        object-fit: cover; /* Asegura que la imagen ocupe todo el espacio sin distorsión */
-    }
-
-
-
-
-
-    .freeRecycling-text-overlay {
-        position: absolute; /* Permite controlar la posición respecto al contenedor padre */
-        
-        left: 800px; /* Distancia desde la izquierda */
-        width: 300px; /* Ajusta el ancho del contenedor */
-        background-color: white; /* Fondo azul translúcido */
-        
-    
-        text-align: left;
-        z-index: 2; /* Asegura que el contenedor se superponga correctamente */
-        
-        /* Flexbox properties */
-        
-        flex-direction: column; /* Alinea los elementos en una columna */
-        justify-content: flex-start; /* Alinea los elementos hacia la parte superior */
-        gap: 100px; /* Espacio entre los elementos */
-    }
-    
-    .freeRecycling-text-overlay h2 {
-        font-size: 36px;
-        font-family: 'Montserrat', sans-serif;
-        color: #003B5C;
-        margin-bottom: 20px;
-    }
-    
-    .freeRecycling-text-overlay p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 18px;
-        color: #003B5C;
-        margin-bottom: 10px;
-    }
-    
-    .freeRecycling-text-overlay ol {
-        list-style: decimal;
-        padding-left: 20px;
-    }
-    
-    .freeRecycling-text-overlay ol li {
-        margin-bottom: 88px; /* Ajusta el espacio entre los elementos de la lista */
-    }
-    
-
-    /* Contenedor del timeline que contiene los círculos y líneas */
-.timeline-container {
-    position: absolute; /* Permite posicionar el contenedor en relación con su padre */
-    top: 150px; /* Ajusta esta propiedad para controlar la posición vertical */
-    left: 710px; /* Ajusta esta propiedad para controlar la posición horizontal */
+/* Estilo de cada paso */
+.shipping-step {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 10px; /* Añade espacio entre los círculos y las líneas */
-    z-index: 1; /* Controla la superposición con otros elementos */
-  }
-  
-  /* Estilos para cada círculo (número) */
-  .step-circle {
-    width: 80px; /* Controla el tamaño del círculo */
-    height: 80px; /* Mantén el mismo valor que width para un círculo perfecto */
-    border-radius: 50%; /* Hace que el elemento sea redondeado */
-    background-color: #2699fb; /* Color de fondo del círculo */
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Fondo azul y bordes redondeados para el contenedor del logo */
+.step-logo {
+    width: 100%;
+    /* Asegura que las imágenes escalen */
+    max-width: 100px;
+    /* Pero establece un máximo en pantallas más grandes */
+    height:100%;
+    max-height: 100px;
+    /* Mantén la relación de aspecto */
+    border-radius: 50%;
+    background-color: #007bff;
+    /* Fondo azul */
+    padding: 10px;
+    object-fit: contain;
+    border: 15px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.step-logo-3 {
+    width: 100%;
+    /* Asegura que las imágenes escalen */
+    max-width: 100px;
+    /* Pero establece un máximo en pantallas más grandes */
+    height:100px;
+    /* Mantén la relación de aspecto */
+    background-color: #007bff;
+    /* Fondo azul */
+    padding: 10px;
+    object-fit: contain;
+    border: 15px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    background-size: cover;
+}
+.step-logo-3 img {
+    height: 150px;
+}
+
+/* Texto debajo de cada logo */
+.shipping-step p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #003B5C;
+    margin-top: 10px;
+}
+
+
+
+/* Detalles adicionales del paso */
+.step-detail {
+    background-color: #f2f4f8;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    width: 250px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de la línea azul que conecta los pasos */
+.shipping-steps::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+    height: 4px;
+    background-color: #007bff;
+    z-index: 0;
+}
+
+.shipping-step::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: transparent;
+    z-index: 1;
+}
+
+
+
+.popup-batteries.mail-lithium-popup {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 9999;
+}
+
+
+
+
+
+
+
+
+.contenedorDeTodosLosPasos {
+    display: flex;
+    justify-content: center;
+    /* Centra los elementos horizontalmente */
+    align-items: center;
+    /* Centra los elementos verticalmente */
+    gap: 20px;
+    /* Espaciado entre los elementos */
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+
+    padding: 90px 0 20px;
+    flex-wrap: wrap;
+    /* Permite que los elementos se ajusten en varias filas si no hay suficiente espacio */
+}
+
+.contenedorDePasosIndividuales {
+    display: flex;
+    flex-direction: column;
+    /* Muestra el contenido dentro de cada paso en columna */
     align-items: center;
     justify-content: center;
-    font-size: 36px;
-    color: white; /* Color del texto */
-    font-weight: bold; /* Negrita para el texto */
-  }
-  
-  /* Línea que conecta los pasos */
-  .step-line {
-    width: 2px; /* Grosor de la línea */
-    height: 54px; /* Longitud de la línea entre los pasos */
-    background-color: #4F84C4; /* Color de la línea */
-  }
-
-  .steps-text p {
-    margin-bottom: 95px; /* Ajusta el espacio entre los textos */
-    font-size: 16px; /* Tamaño de letra */
-  }
-
-
-  .freeRecycling-text-overlay h3 {
-    font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
-    font-size: 25px; /* Ajusta el tamaño del texto según lo necesites */
-    color: #003B5C; /* Color del texto */
-    margin-bottom: 20px; /* Espaciado debajo del h3 */
+    width: calc(33.33% - 20px);
+    /* Distribuye tres pasos en una fila, con un margen entre ellos */
+    max-width: 300px;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    /* Asegura que el padding se incluya en el ancho total */
 }
+
+
+.sombra-seleccionada {
+    /* Sombra suave alrededor del contenedor */
+    transition: box-shadow 0.3s ease;
+    /* Transición suave cuando se activa */
+    padding: 10px;
+    /* Espacio interior para mejorar la presentación */
+    border-radius: 10px;
+    /* Bordes redondeados */
+}
+
+.textoDelPaso {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    margin-top: 50px;
+    font-size: 0.75rem;
+    margin-top: 30%;
+    width: 125px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    color: #003B5C;
+}
+
+.step-text {
+    font-size: 1rem;
+    margin-top: 85%;
+}
+
+.contenedorDelLogo {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    /* Centra el logo */
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+
+
