@@ -1,0 +1,59 @@
+.popup-batteries {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    z-index: 9999;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+    .lets-image {
+        width: 100%; /* Ajusta el tamaño al 100% del contenedor */
+        height: 370px; /* Ajusta la altura según lo que necesites */
+        
+        border-radius: 10px; /* Opcional: redondea los bordes si es necesario */
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
